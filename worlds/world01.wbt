@@ -10,12 +10,135 @@ EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/project
 WorldInfo {
 }
 Viewpoint {
-  orientation 0.05854816788575253 0.9699238567286514 0.23626219372942453 0.5677283199292644
-  position -5.340132828590856 0.14254329518358966 2.6242352168919214
+  orientation 0.11652106980342153 0.9921440276129079 -0.0455309648909801 1.6495752728296906
+  position 1.538816358266994 -1.3482111093819944 11.507487816225385
+}
+Solid {
+  translation 0.12 1.82 0.07
+  rotation 0 0 1 1.5708
+  children [
+    Shape {
+      geometry Box {
+        size 0.3 0.05 0.15
+      }
+    }
+  ]
+  name "solid(14)"
+  boundingObject Box {
+    size 0.3 0.05 0.15
+  }
+}
+Solid {
+  translation 0.12 1.82 0.07
+  rotation 0 0 1 1.5708
+  children [
+    Shape {
+      geometry Box {
+        size 0.3 0.05 0.15
+      }
+    }
+  ]
+  name "solid(15)"
+  boundingObject Box {
+    size 0.3 0.05 0.15
+  }
+}
+Solid {
+  translation 0.12 1.82 0.07
+  rotation 0 0 1 1.5708
+  children [
+    Shape {
+      geometry Box {
+        size 0.3 0.05 0.15
+      }
+    }
+  ]
+  name "solid(8)"
+  boundingObject Box {
+    size 0.3 0.05 0.15
+  }
+}
+Solid {
+  translation 0.12 1.82 0.07
+  rotation 0 0 1 1.5708
+  children [
+    Shape {
+      geometry Box {
+        size 0.3 0.05 0.15
+      }
+    }
+  ]
+  name "solid(9)"
+  boundingObject Box {
+    size 0.3 0.05 0.15
+  }
+}
+Solid {
+  translation 0.12 1.82 0.07
+  rotation 0 0 1 1.5708
+  children [
+    Shape {
+      geometry Box {
+        size 0.3 0.05 0.15
+      }
+    }
+  ]
+  name "solid(10)"
+  boundingObject Box {
+    size 0.3 0.05 0.15
+  }
+}
+Solid {
+  translation 0.12 1.82 0.07
+  rotation 0 0 1 1.5708
+  children [
+    Shape {
+      geometry Box {
+        size 0.3 0.05 0.15
+      }
+    }
+  ]
+  name "solid(11)"
+  boundingObject Box {
+    size 0.3 0.05 0.15
+  }
+}
+Solid {
+  translation 0.12 1.82 0.07
+  rotation 0 0 1 1.5708
+  children [
+    Shape {
+      geometry Box {
+        size 0.3 0.05 0.15
+      }
+    }
+  ]
+  name "solid(12)"
+  boundingObject Box {
+    size 0.3 0.05 0.15
+  }
+}
+Solid {
+  translation 0.12 1.82 0.07
+  rotation 0 0 1 1.5708
+  children [
+    Shape {
+      geometry Box {
+        size 0.3 0.05 0.15
+      }
+    }
+  ]
+  name "solid(13)"
+  boundingObject Box {
+    size 0.3 0.05 0.15
+  }
 }
 TexturedBackgroundLight {
 }
 Robot {
+  name "MazeBuilder"
+  controller "maze_builder"
+  supervisor TRUE
 }
 Floor {
   rotation 0 -1 0 0
@@ -30,6 +153,111 @@ Solid {
       }
     }
   ]
+  boundingObject Box {
+    size 0.3 0.05 0.15
+  }
+}
+Solid {
+  translation 0.12 1.82 0.07
+  rotation 0 0 1 1.5708
+  children [
+    Shape {
+      geometry Box {
+        size 0.3 0.05 0.15
+      }
+    }
+  ]
+  name "solid(1)"
+  boundingObject Box {
+    size 0.3 0.05 0.15
+  }
+}
+Solid {
+  translation 0.12 1.82 0.07
+  rotation 0 0 1 1.5708
+  children [
+    Shape {
+      geometry Box {
+        size 0.3 0.05 0.15
+      }
+    }
+  ]
+  name "solid(2)"
+  boundingObject Box {
+    size 0.3 0.05 0.15
+  }
+}
+Solid {
+  translation 0.12 1.82 0.07
+  rotation 0 0 1 1.5708
+  children [
+    Shape {
+      geometry Box {
+        size 0.3 0.05 0.15
+      }
+    }
+  ]
+  name "solid(3)"
+  boundingObject Box {
+    size 0.3 0.05 0.15
+  }
+}
+Solid {
+  translation 0.12 1.82 0.07
+  rotation 0 0 1 1.5708
+  children [
+    Shape {
+      geometry Box {
+        size 0.3 0.05 0.15
+      }
+    }
+  ]
+  name "solid(4)"
+  boundingObject Box {
+    size 0.3 0.05 0.15
+  }
+}
+Solid {
+  translation 0.12 1.82 0.07
+  rotation 0 0 1 1.5708
+  children [
+    Shape {
+      geometry Box {
+        size 0.3 0.05 0.15
+      }
+    }
+  ]
+  name "solid(5)"
+  boundingObject Box {
+    size 0.3 0.05 0.15
+  }
+}
+Solid {
+  translation 0.12 1.82 0.07
+  rotation 0 0 1 1.5708
+  children [
+    Shape {
+      geometry Box {
+        size 0.3 0.05 0.15
+      }
+    }
+  ]
+  name "solid(6)"
+  boundingObject Box {
+    size 0.3 0.05 0.15
+  }
+}
+Solid {
+  translation 0.12 1.82 0.07
+  rotation 0 0 1 1.5708
+  children [
+    Shape {
+      geometry Box {
+        size 0.3 0.05 0.15
+      }
+    }
+  ]
+  name "solid(7)"
   boundingObject Box {
     size 0.3 0.05 0.15
   }
@@ -53,18 +281,12 @@ WoodenBox {
   name "wooden box(1)"
 }
 E-puck {
-  hidden position_0_0 6.7744135070383305
-  hidden position_0_1 6.774413506743708
-  hidden linearVelocity_0 1.0214626155824657e-05 -1.5414258612088574e-08 -1.2778177276118597e-06
-  hidden angularVelocity_0 -1.6482694562281793e-08 0.0008449379263126539 4.1410093400304824e-07
-  hidden rotation_1 0 -1 0 5.791957107320843
-  hidden linearVelocity_1 1.4455616947839405e-05 -1.5636578934349422e-08 -1.5173993169524883e-06
-  hidden angularVelocity_1 8.945360511772141e-07 4.0008447810367835 6.661051894263519e-07
-  hidden rotation_2 0 -0.9999999999999999 0 5.791957107615465
-  hidden linearVelocity_2 1.4477714597807931e-05 -1.5069461928226682e-08 -1.5165361021195927e-06
-  hidden angularVelocity_2 6.399168319896446e-07 4.000844781036557 6.780429834216685e-07
-  translation 0.05822868309358718 3.47409145073942e-08 -4.105206290604124e-05
-  rotation 1.3911630717145083e-05 -0.9999999988995952 -4.480263569306721e-05 0.00421287203192055
+  hidden translation_1 0 0.02599999999999997 0.02
+  hidden rotation_1 0 -1 0 5.791957107320844
+  hidden translation_2 0 -0.025999999999999766 0.02
+  hidden rotation_2 0 -1 0 5.791957107615465
+  translation 0.863234 0.96 0.00276441
+  rotation -2.0641448154568835e-06 -0.9999999999978619 -1.2549674465806228e-07 0.004066917665201103
   controller "gps"
   controllerArgs [
     ""
@@ -78,84 +300,84 @@ E-puck {
   ]
 }
 Wall {
-  translation -0.77999 0.23 0.23
+  translation -0.779993 -3.31 0.23
   rotation 1 -6.88391e-07 1.72486e-06 -1.5707953071795862
   name "wall(4)"
   size 0.1 0.5 0.5
 }
 Wall {
-  translation -0.77999 -0.65 0.23
+  translation -0.779994 -4.98 0.23
   rotation 1 -6.88391e-07 1.72486e-06 -1.5707953071795862
   name "wall(11)"
   size 0.1 0.5 0.5
 }
 Wall {
-  translation -0.26999 -0.31 0.23
+  translation -0.26999 -3.66 0.23
   rotation 1 -6.88391e-07 1.72486e-06 -1.5707953071795862
   name "wall(12)"
   size 0.1 0.5 0.5
 }
 Wall {
-  translation -0.23999 0.29 0.23
+  translation -0.239995 -4.19 0.23
   rotation 1 -6.88391e-07 1.72486e-06 -1.5707953071795862
   name "wall(9)"
   size 0.1 0.5 0.5
 }
 Wall {
-  translation 0.26001 0.23 0.23
+  translation 0.259999 -2.49 0.23
   rotation 1.2048604791210268e-06 0.7071072811860564 -0.7071062811856587 -3.1415853071795863
   name "wall(5)"
   size 0.1 0.5 0.5
 }
 Wall {
-  translation -1.25999 0.7 0.23
+  translation -1.25999 -2.85 0.23
   rotation 0.5773489358556708 -0.5773509358554485 0.5773509358554485 -2.094395307179586
   name "wall(6)"
   size 0.1 0.5 0.5
 }
 Wall {
-  translation -1.25999 0.28 0.23
+  translation -1.25999 -3.4 0.23
   rotation 0.5773489358556708 -0.5773509358554485 0.5773509358554485 -2.094395307179586
   name "wall(13)"
   size 0.1 0.5 0.5
 }
 Wall {
-  translation 0.22001 0.25 0.23
+  translation 0.219996 -3.12 0.23
   rotation -0.5773489358556708 0.5773509358554485 -0.5773509358554485 2.0944
   name "wall(10)"
   size 0.1 0.5 0.6
 }
 Wall {
-  translation -0.269991 0.25 0.23
+  translation -0.269991 -2.73 0.23
   rotation 0.5773489358556708 -0.5773509358554485 0.5773509358554485 -2.094395307179586
   name "wall(7)"
   size 0.1 0.5 0.5
 }
 Wall {
-  translation -0.28999 0.79 0.23
+  translation -0.290001 -3.1 0.23
   rotation -0.5773489358556708 0.5773509358554485 -0.5773509358554485 2.0944
   name "wall(8)"
   size 0.1 0.5 0.5
 }
 Wall {
-  translation -0.23998 -0.729995 -0.010001
+  translation -0.239972 -4.53999 -0.010001
   rotation 0 0 1 1.5708
   size 0.1 2 0.5
 }
 Wall {
-  translation 0.81527 -0.695 0.26
+  translation 0.815261 -4.655 0.260009
   rotation -0.9999999999969358 1.4086499999956836e-06 -2.035749999993762e-06 1.5708
   name "wall(2)"
   size 0.1 0.5 2
 }
 Wall {
-  translation -1.30159 0.22834 0.229996
+  translation -1.30159 -3.52166 0.229994
   rotation 0.999999999996465 -2.2071699999921974e-06 1.482619999994759e-06 -1.5707953071795862
   name "wall(3)"
   size 0.1 0.5 1
 }
 Wall {
-  translation -1.30159 -0.77166 0.229996
+  translation -1.30159 -4.29166 0.229996
   rotation 0.999999999996465 -2.2071699999921974e-06 1.482619999994759e-06 -1.5707953071795862
   name "wall(14)"
   size 0.1 0.5 0.5
@@ -163,8 +385,428 @@ Wall {
 TexturedBackground {
 }
 Wall {
-  translation -0.24511 1.29188 -0.020003
+  translation -0.245109 -2.45812 -0.020003
   rotation 0 0 1 -1.5707953071795862
   name "wall(1)"
   size 0.1 2 0.5
+}
+Solid {
+  translation 0 0 0.25
+  children [
+    Shape {
+      geometry Box {
+        size 0.3 0.3 0.5
+      }
+    }
+  ]
+  name "solid(16)"
+  boundingObject Box {
+    size 0.3 0.3 0.5
+  }
+}
+Solid {
+  translation 0 0.3 0.25
+  children [
+    Shape {
+      geometry Box {
+        size 0.3 0.3 0.5
+      }
+    }
+  ]
+  name "solid(17)"
+  boundingObject Box {
+    size 0.3 0.3 0.5
+  }
+}
+Solid {
+  translation 0 0.6 0.25
+  children [
+    Shape {
+      geometry Box {
+        size 0.3 0.3 0.5
+      }
+    }
+  ]
+  name "solid(18)"
+  boundingObject Box {
+    size 0.3 0.3 0.5
+  }
+}
+Solid {
+  translation 0 0.8999999999999999 0.25
+  children [
+    Shape {
+      geometry Box {
+        size 0.3 0.3 0.5
+      }
+    }
+  ]
+  name "solid(19)"
+  boundingObject Box {
+    size 0.3 0.3 0.5
+  }
+}
+Solid {
+  translation 0 1.2 0.25
+  children [
+    Shape {
+      geometry Box {
+        size 0.3 0.3 0.5
+      }
+    }
+  ]
+  name "solid(20)"
+  boundingObject Box {
+    size 0.3 0.3 0.5
+  }
+}
+Solid {
+  translation 0 1.5 0.25
+  children [
+    Shape {
+      geometry Box {
+        size 0.3 0.3 0.5
+      }
+    }
+  ]
+  name "solid(21)"
+  boundingObject Box {
+    size 0.3 0.3 0.5
+  }
+}
+Solid {
+  translation 0 1.7999999999999998 0.25
+  children [
+    Shape {
+      geometry Box {
+        size 0.3 0.3 0.5
+      }
+    }
+  ]
+  name "solid(22)"
+  boundingObject Box {
+    size 0.3 0.3 0.5
+  }
+}
+Solid {
+  translation 0.3 0 0.25
+  children [
+    Shape {
+      geometry Box {
+        size 0.3 0.3 0.5
+      }
+    }
+  ]
+  name "solid(23)"
+  boundingObject Box {
+    size 0.3 0.3 0.5
+  }
+}
+Solid {
+  translation 0.3 1.2 0.25
+  children [
+    Shape {
+      geometry Box {
+        size 0.3 0.3 0.5
+      }
+    }
+  ]
+  name "solid(24)"
+  boundingObject Box {
+    size 0.3 0.3 0.5
+  }
+}
+Solid {
+  translation 0.3 1.7999999999999998 0.25
+  children [
+    Shape {
+      geometry Box {
+        size 0.3 0.3 0.5
+      }
+    }
+  ]
+  name "solid(25)"
+  boundingObject Box {
+    size 0.3 0.3 0.5
+  }
+}
+Solid {
+  translation 0.6 0 0.25
+  children [
+    Shape {
+      geometry Box {
+        size 0.3 0.3 0.5
+      }
+    }
+  ]
+  name "solid(26)"
+  boundingObject Box {
+    size 0.3 0.3 0.5
+  }
+}
+Solid {
+  translation 0.6 0.6 0.25
+  children [
+    Shape {
+      geometry Box {
+        size 0.3 0.3 0.5
+      }
+    }
+  ]
+  name "solid(27)"
+  boundingObject Box {
+    size 0.3 0.3 0.5
+  }
+}
+Solid {
+  translation 0.6 1.2 0.25
+  children [
+    Shape {
+      geometry Box {
+        size 0.3 0.3 0.5
+      }
+    }
+  ]
+  name "solid(28)"
+  boundingObject Box {
+    size 0.3 0.3 0.5
+  }
+}
+Solid {
+  translation 0.6 1.7999999999999998 0.25
+  children [
+    Shape {
+      geometry Box {
+        size 0.3 0.3 0.5
+      }
+    }
+  ]
+  name "solid(29)"
+  boundingObject Box {
+    size 0.3 0.3 0.5
+  }
+}
+Solid {
+  translation 0.8999999999999999 0 0.25
+  children [
+    Shape {
+      geometry Box {
+        size 0.3 0.3 0.5
+      }
+    }
+  ]
+  name "solid(30)"
+  boundingObject Box {
+    size 0.3 0.3 0.5
+  }
+}
+Solid {
+  translation 0.8999999999999999 0.6 0.25
+  children [
+    Shape {
+      geometry Box {
+        size 0.3 0.3 0.5
+      }
+    }
+  ]
+  name "solid(31)"
+  boundingObject Box {
+    size 0.3 0.3 0.5
+  }
+}
+Solid {
+  translation 0.8999999999999999 1.7999999999999998 0.25
+  children [
+    Shape {
+      geometry Box {
+        size 0.3 0.3 0.5
+      }
+    }
+  ]
+  name "solid(32)"
+  boundingObject Box {
+    size 0.3 0.3 0.5
+  }
+}
+Solid {
+  translation 1.2 0 0.25
+  children [
+    Shape {
+      geometry Box {
+        size 0.3 0.3 0.5
+      }
+    }
+  ]
+  name "solid(33)"
+  boundingObject Box {
+    size 0.3 0.3 0.5
+  }
+}
+Solid {
+  translation 1.2 0.6 0.25
+  children [
+    Shape {
+      geometry Box {
+        size 0.3 0.3 0.5
+      }
+    }
+  ]
+  name "solid(34)"
+  boundingObject Box {
+    size 0.3 0.3 0.5
+  }
+}
+Solid {
+  translation 1.2 0.8999999999999999 0.25
+  children [
+    Shape {
+      geometry Box {
+        size 0.3 0.3 0.5
+      }
+    }
+  ]
+  name "solid(35)"
+  boundingObject Box {
+    size 0.3 0.3 0.5
+  }
+}
+Solid {
+  translation 1.2 1.2 0.25
+  children [
+    Shape {
+      geometry Box {
+        size 0.3 0.3 0.5
+      }
+    }
+  ]
+  name "solid(36)"
+  boundingObject Box {
+    size 0.3 0.3 0.5
+  }
+}
+Solid {
+  translation 1.2 1.7999999999999998 0.25
+  children [
+    Shape {
+      geometry Box {
+        size 0.3 0.3 0.5
+      }
+    }
+  ]
+  name "solid(37)"
+  boundingObject Box {
+    size 0.3 0.3 0.5
+  }
+}
+Solid {
+  translation 1.5 0 0.25
+  children [
+    Shape {
+      geometry Box {
+        size 0.3 0.3 0.5
+      }
+    }
+  ]
+  name "solid(38)"
+  boundingObject Box {
+    size 0.3 0.3 0.5
+  }
+}
+Solid {
+  translation 1.5 1.7999999999999998 0.25
+  children [
+    Shape {
+      geometry Box {
+        size 0.3 0.3 0.5
+      }
+    }
+  ]
+  name "solid(39)"
+  boundingObject Box {
+    size 0.3 0.3 0.5
+  }
+}
+Solid {
+  translation 1.7999999999999998 0 0.25
+  children [
+    Shape {
+      geometry Box {
+        size 0.3 0.3 0.5
+      }
+    }
+  ]
+  name "solid(40)"
+  boundingObject Box {
+    size 0.3 0.3 0.5
+  }
+}
+Solid {
+  translation 1.7999999999999998 0.3 0.25
+  children [
+    Shape {
+      geometry Box {
+        size 0.3 0.3 0.5
+      }
+    }
+  ]
+  name "solid(41)"
+  boundingObject Box {
+    size 0.3 0.3 0.5
+  }
+}
+Solid {
+  translation 1.7999999999999998 0.6 0.25
+  children [
+    Shape {
+      geometry Box {
+        size 0.3 0.3 0.5
+      }
+    }
+  ]
+  name "solid(42)"
+  boundingObject Box {
+    size 0.3 0.3 0.5
+  }
+}
+Solid {
+  translation 1.7999999999999998 1.2 0.25
+  children [
+    Shape {
+      geometry Box {
+        size 0.3 0.3 0.5
+      }
+    }
+  ]
+  name "solid(43)"
+  boundingObject Box {
+    size 0.3 0.3 0.5
+  }
+}
+Solid {
+  translation 1.7999999999999998 1.5 0.25
+  children [
+    Shape {
+      geometry Box {
+        size 0.3 0.3 0.5
+      }
+    }
+  ]
+  name "solid(44)"
+  boundingObject Box {
+    size 0.3 0.3 0.5
+  }
+}
+Solid {
+  translation 1.7999999999999998 1.7999999999999998 0.25
+  children [
+    Shape {
+      geometry Box {
+        size 0.3 0.3 0.5
+      }
+    }
+  ]
+  name "solid(45)"
+  boundingObject Box {
+    size 0.3 0.3 0.5
+  }
 }
